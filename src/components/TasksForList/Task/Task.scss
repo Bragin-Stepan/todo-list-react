@@ -1,0 +1,55 @@
+.todo__task {
+  color: white;
+  .text-decoration-line-through {
+    transition: 0.02s;
+    opacity: 0.5;
+    font-style: italic;
+  }
+  .form-check {
+    &:hover {
+      color: var(--dark-color);
+    }
+  }
+  .task__dashed {
+    opacity: 0.2;
+    flex: 1;
+    border-bottom: 1px dashed rgb(235, 235, 235);
+    position: relative;
+    top: 6px;
+    margin: 0 7px;
+  }
+
+  .task__icon-remove {
+    opacity: 0.1;
+    height: 26px;
+    width: 26px;
+    &:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+
+  .form-check-input {
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: var(--main-color);
+
+    &:checked {
+      opacity: 0.5;
+      background-color: var(--main-color);
+      border-color: var(--main-color-darker);
+    }
+  }
+  @keyframes taskIn {
+    from {
+      opacity: 0.8;
+      transform: translateX(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  animation: taskIn 0.5s;
+}

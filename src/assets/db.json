@@ -1,0 +1,130 @@
+{
+  "lists": [
+    {
+      "id": "1375",
+      "name": "Покупки"
+    },
+    {
+      "id": "985b",
+      "name": "Фильмы и сериалы"
+    },
+    {
+      "id": "c95f",
+      "name": "Английский"
+    },
+    {
+      "id": "9151",
+      "name": "React"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ed35",
+      "listId": "985b",
+      "text": "Аватар 2",
+      "completed": false
+    },
+    {
+      "id": "9f89",
+      "listId": "985b",
+      "text": "Игра престолов",
+      "completed": true
+    },
+    {
+      "id": "e45d",
+      "listId": "985b",
+      "text": "Теория большого взрыва",
+      "completed": true
+    },
+    {
+      "id": "0cc4",
+      "listId": "1375",
+      "text": "Помидоры",
+      "completed": true
+    },
+    {
+      "id": "2aac",
+      "listId": "1375",
+      "text": "Лук",
+      "completed": false
+    },
+    {
+      "id": "0a33",
+      "listId": "1375",
+      "text": "Огурцы",
+      "completed": true
+    },
+    {
+      "id": "a6dc",
+      "listId": "1375",
+      "text": "Яйца",
+      "completed": false
+    },
+    {
+      "id": "5aab",
+      "listId": "c95f",
+      "text": "Лексика Past Simple",
+      "completed": false
+    },
+    {
+      "id": "de40",
+      "listId": "c95f",
+      "text": "Времена",
+      "completed": false
+    },
+    {
+      "id": "c107",
+      "listId": "985b",
+      "text": "Интерстеллар",
+      "completed": false
+    },
+    {
+      "id": "f03d",
+      "listId": "985b",
+      "text": "Большой куш",
+      "completed": false
+    },
+    {
+      "id": "7e14",
+      "listId": "985b",
+      "text": "Гарри Поттер и философский камень",
+      "completed": true
+    },
+    {
+      "id": "9ba4",
+      "listId": "9151",
+      "text": "Хуки (useState, useRef, useEffect)",
+      "completed": true
+    },
+    {
+      "id": "ca19",
+      "listId": "9151",
+      "text": "Работа с сервером (Axios и JSON server)",
+      "completed": true
+    },
+    {
+      "id": "596e",
+      "listId": "9151",
+      "text": "React Router v6",
+      "completed": true
+    },
+    {
+      "id": "1d1c",
+      "listId": "9151",
+      "text": "Redux Toolkit",
+      "completed": false
+    },
+    {
+      "id": "4109",
+      "listId": "9151",
+      "text": "TypeScript",
+      "completed": false
+    },
+    {
+      "id": "8fb3",
+      "listId": "9151",
+      "text": "NextJS",
+      "completed": false
+    }
+  ]
+}

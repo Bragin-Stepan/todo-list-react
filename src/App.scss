@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif; // Семейство шрифта по умолчанию
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  --main-color: rgb(26, 26, 26); // Цвет по умолчанию
+  --main-color-darker: #fff045;
+  --secondary-color: #7841f0;
+  --dark-color: #fff587;
+  --light-color: rgb(250, 250, 250);
+  --white-color: #fff;
+  --black-color: #131313;
+
+  --gradient-color: linear-gradient(
+    90deg,
+    rgb(139, 207, 255) 0%,
+    rgb(216, 77, 255) 100%
+  );
+
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}

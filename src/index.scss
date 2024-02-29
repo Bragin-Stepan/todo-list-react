@@ -1,0 +1,86 @@
+.todo {
+  margin-top: 50px;
+  background: var(--main-color);
+  border-radius: 18px;
+  ul {
+    padding-left: 0;
+  }
+}
+
+//========== Todo главная
+
+.todo__main {
+  .todo__all-tasks {
+    &:not(:last-of-type) {
+      border-bottom: 1px solid #434343;
+      margin-bottom: 20px;
+    }
+  }
+  height: 500px;
+  color: white;
+  .todo__main-title {
+    font-size: 38px;
+  }
+
+  .todo__content {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .spinner-border {
+      margin-top: 160px;
+    }
+  }
+  .todo__button-edit {
+    margin-left: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    opacity: 0.2;
+    width: 25px;
+    height: 25px;
+    &:hover {
+      color: var(--main-color-darker);
+      opacity: 1;
+    }
+  }
+
+  //========== Scroll задач
+  overflow: auto;
+  @media screen and (max-width: 991px) {
+    overflow: visible;
+    height: auto;
+  }
+}
+
+.todo__lack-of-tasks {
+  height: 100%;
+  margin: auto;
+  max-width: 400px;
+  span {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
+//========== Под разные размеры
+@media screen and (max-width: 991px) {
+  body {
+    background: var(--main-color);
+  }
+  :root {
+    background: var(--main-color);
+    .todo {
+      padding: 0px;
+    }
+  }
+
+  .todo__lack-of-tasks {
+    padding-top: 150px;
+    padding-bottom: 130px;
+  }
+  .todo__main {
+    margin-top: 20px;
+    .todo__content .spinner-border {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+}
